@@ -8,7 +8,7 @@ face = mpFace.FaceDetection(min_detection_confidence=0.5, model_selection=1)
 draw = mp.solutions.drawing_utils
 
 #? Loading the video
-vid = cv2.VideoCapture('../videos/demo2.mp4')
+vid = cv2.VideoCapture('videos/demo2.mp4')
 
 #? Inititalize the class to calculate time lag
 time_lag = TimeLag()
